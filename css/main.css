@@ -91,7 +91,7 @@ button.slick-prev {
     position: absolute;
     background-color: transparent;
     background-image: url(../img/prev.png);
-    top: 43%;
+    top: 52%;
     left: 236px;
     outline: none;
 }
@@ -104,22 +104,34 @@ button.slick-next {
     position: absolute;
     background-color: transparent;
     background-image: url(../img/next.png);
-    top: 43%;
+    top: 52%;
     right: 236px;
     outline: none;
 }
 .slider-principal img {
-    height: 500px;
+    height: 550px;
 }
-ul.slick-dots li {
-    display: inline-block;
+.slick-dots li button {
     font-size: 0px;
-    border: 3px solid #ffffff;
+    border: 5px solid #ffffff;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
 }
-ul.slick-dots li.slick-active {
-    background-color: #00BAC6;
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;
+    top: 500px; 
+}
+li.slick-active button {
+    background: #00bac6;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
 }
