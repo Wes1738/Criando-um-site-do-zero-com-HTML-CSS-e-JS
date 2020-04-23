@@ -3,6 +3,9 @@ body {
     height: 100%;
     margin: 0 auto;
 }
+ul {
+    padding: 0px!important;
+}
 .menu-principal {
     width: 100%;
     background-color: #252323;
@@ -30,8 +33,13 @@ main {
 }
 .header-2 {
     background-color: #ffffff;
-    width: 100%;
-    border-bottom: #efefef;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    height: 80px;
 }
 .menu ul li {
     margin-left: 15px;
@@ -48,6 +56,22 @@ main {
     float: left;
 }
 .busca {
+    text-align: center;
     width: 30%;
     float: right;
+}
+.busca input {
+    background-image: url(../img/Lupa.png);
+    background-repeat: no-repeat;
+    height: 6px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 95%;
+    border: 1px solid #d6d6d6;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
