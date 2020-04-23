@@ -11,7 +11,7 @@ ul {
     background-color: #252323;
     height: 60px;
 }
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -91,8 +91,8 @@ button.slick-prev {
     position: absolute;
     background-color: transparent;
     background-image: url(../img/prev.png);
-    top: 52%;
-    left: 236px;
+    top: 42%;
+    left: 290px;
     outline: none;
 }
 button.slick-next {
@@ -104,13 +104,11 @@ button.slick-next {
     position: absolute;
     background-color: transparent;
     background-image: url(../img/next.png);
-    top: 52%;
-    right: 236px;
+    top: 42%;
+    right: 290px;
     outline: none;
 }
-.slider-principal img {
-    height: 550px;
-}
+
 .slick-dots li button {
     font-size: 0px;
     border: 5px solid #ffffff;
@@ -126,7 +124,7 @@ button.slick-next {
     width: 50%;
     position: absolute;
     left: 46%;
-    top: 500px; 
+    top: 450px; 
 }
 li.slick-active button {
     background: #00bac6;
@@ -135,3 +133,47 @@ li.slick-active button {
     padding-left: 10px;
     display: inline-block;
 }
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque p{
+    font-size: 15px;
+    color: #9a9a9a;
+}
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    border: 1px solid #c5c5c5;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+} 
