@@ -82,6 +82,9 @@ main, .content {
     float: left;
     position: relative;
 }
+.slider-principal img {
+    height: 500px;
+}
 button.slick-prev {
     font-size: 0px;
     border: none;
@@ -92,7 +95,7 @@ button.slick-prev {
     background-color: transparent;
     background-image: url(../img/prev.png);
     top: 42%;
-    left: 290px;
+    left: 230px;
     outline: none;
 }
 button.slick-next {
@@ -105,10 +108,9 @@ button.slick-next {
     background-color: transparent;
     background-image: url(../img/next.png);
     top: 42%;
-    right: 290px;
+    right: 230px;
     outline: none;
 }
-
 .slick-dots li button {
     font-size: 0px;
     border: 5px solid #ffffff;
@@ -211,7 +213,6 @@ h3 {
     margin-top: 10px!important;
     position: relative!important;
 }
-
 .bloco-logos {
     height: 170px;
 }
@@ -219,3 +220,62 @@ h3 {
 .bloco-logos img {
     margin-top: 50px;
 }
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+
+.footer-2 p {
+    padding: 10px;
+}
+
+.clock {
+    color: #898989!important;
+}
+
+.clock:before {
+    content: '';
+    width:  15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before, .emailico:before, .telefoneico:before {
+    content: '';
+    width:  17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.local:before {
+    background-image: url('../img/local.png');
+}  
+.emailico:before {
+    background-image: url('../img/emailico.png');
+}  
+.telefoneico:before {
+    background-image: url('../img/telefoneico.png');
+}  
