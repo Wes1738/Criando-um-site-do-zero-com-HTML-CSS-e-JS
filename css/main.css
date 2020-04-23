@@ -82,3 +82,44 @@ main {
     float: left;
     position: relative;
 }
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 50px;
+    z-index: 9;    
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../img/prev.png);
+    top: 43%;
+    left: 236px;
+    outline: none;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 50px;
+    z-index: 9;    
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../img/next.png);
+    top: 43%;
+    right: 236px;
+    outline: none;
+}
+.slider-principal img {
+    height: 500px;
+}
+ul.slick-dots li {
+    display: inline-block;
+    font-size: 0px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+ul.slick-dots li.slick-active {
+    background-color: #00BAC6;
+}
