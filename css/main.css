@@ -279,3 +279,18 @@ h3 {
 .telefoneico:before {
     background-image: url('../img/telefoneico.png');
 }  
+.redes-sociais-2 ul li {
+    margin-left: 17px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.redes-sociais-2 {
+    width: 21%;
+    float: right;
+}
+#direitos {
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 11px;
+}
